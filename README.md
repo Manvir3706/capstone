@@ -100,9 +100,9 @@ Arguments:
 
 I achieve this following performance on the test-set. I'm aware that the current C3D model achieves AUC of 0.69 which is worse than the original paper. This can be caused by different weights of the C3D model or usage of a different feature extractor.
 
-| C3D (<a href="exps\c3d\models\epoch_80000.pt">Link</a>) | R3D101 (<a href="exps\resnet_r3d101_KM_200ep\models\epoch_10.pt">Link</a>) | R3D152 (<a href="exps\resnet_r3d152_KM_200ep\models\epoch_10.pt">Link</a>) |
-| :-----------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-|      <img src=graphs/roc_auc_c3d.png width="300"/>      |               <img src=graphs/roc_auc_r101.png width="300"/>               |               <img src=graphs/roc_auc_r152.png width="300"/>               |
+| C3D (<a href="exps\c3d\models\epoch_80000.pt">Link</a>) | R3D101 (<a href="exps\resnet_r3d101_KM_200ep\models\epoch_10.pt">Link</a>) | R3D152 (<a href="exps\resnet_r3d152_KM_200ep\models\epoch_10.pt">Link</a>) | MFNET (<a href="exps\mfnet\models\epoch_10.pt">Link</a>) |
+| :-----------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------: |
+|      <img src=graphs/roc_auc_c3d.png width="300"/>      |               <img src=graphs/roc_auc_r101.png width="300"/>               |               <img src=graphs/roc_auc_r152.png width="300"/>               |                                                          |
 
 
 ## Demo
