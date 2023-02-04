@@ -87,7 +87,6 @@ if __name__ == "__main__":
     # Data loader
     train_loader = FeaturesLoader(
         features_path=args.features_path,
-        feature_dim=args.feature_dim,
         annotation_path=args.annotation_path,
         iterations=args.iterations_per_epoch,
     )

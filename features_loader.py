@@ -18,7 +18,6 @@ class FeaturesLoader:
     def __init__(
         self,
         features_path: str,
-        feature_dim: int,
         annotation_path: str,
         bucket_size: int = 30,
         iterations: int = 20000,
@@ -34,7 +33,6 @@ class FeaturesLoader:
 
         super().__init__()
         self._features_path = features_path
-        self._feature_dim = feature_dim
         self._bucket_size = bucket_size
 
         # load video list
