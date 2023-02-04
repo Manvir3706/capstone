@@ -122,5 +122,7 @@ A: Downlaod and install LAVFilters: http://forum.doom9.org/showthread.php?t=1561
 2.
 ```
 Q: What is the meaning of the second column of Train_Annotations.txt?
-A: Length of the video in frames. Note that it has not effect on training. It exists because these are the original annotations supplied by the authors.
+A: Length of the video in frames. Note that it has not effect on training. It exists because these are the original annotations supplied by the authors. Please refer to the original documentation of the annotations here:
+
+https://www.dropbox.com/sh/75v5ehq4cdg5g5g/AABvnJSwZI7zXb8_myBA0CLHa?dl=0&preview=ReadMe-Anomaly-Detection.txt
 ```
